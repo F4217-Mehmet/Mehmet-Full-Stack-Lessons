@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 1rem;
+  text-align: center;
+}
+.container {
+  display: grid;
+  /*!Sırasıyla 200px, 40vw ve 20rem'lik 3 adet sütun tanımlama*/
+  grid-template-columns: 200px 40vw 20rem;
+  grid-template-rows: 100px 500px 20vh 5rem;
+}
+.content {
+  background-color: wheat;
+  border: 2px solid black;
+}
